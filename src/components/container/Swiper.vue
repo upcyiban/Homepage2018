@@ -32,12 +32,12 @@
             loop:true,
             autoplay: true,
             effect: "coverflow",
-            slidesPerView: 3,
+            slidesPerView: 2,
             centeredSlides: true,
             coverflowEffect: {
               rotate: 10,
               stretch: 10,
-              depth: 30,
+              depth: 60,
               modifier: 2,
               slideShadows : true
             },
@@ -53,8 +53,8 @@
 
 <style scoped>
   .swiper-container{
-    width: 60%;
-    margin-left: 20%;
+    width: 70%;
+    margin-left: 15%;
     margin-top: 220px;
     position: absolute;
   }
@@ -62,10 +62,10 @@
     text-align: center;
   }
   .swiper-slide{
-    height: 160px;
+    height: 220px;
   }
   img{
-    height: 160px;
+    height: 220px;
     width: 100%;
   }
   @media screen and (max-width: 1240px){

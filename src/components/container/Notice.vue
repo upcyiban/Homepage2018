@@ -15,7 +15,7 @@
         </ul>
       </div>
       <div id="notice-right">
-        <p>易杂烩</p>
+        <p>易新闻</p>
         <ul type="square">
           <li v-for="item in zaHui"><a :href="item['url']">{{item['details']}}</a></li>
         </ul>
@@ -51,41 +51,42 @@
   }
   #notice-left{
     width: 27.5%;
-    height: 200px;
+    height: 220px;
     background: white;
     text-align: center;
     margin-left: 4.375%;
     top: 13px;
     position: relative;
-    overflow: hidden;
+    overflow-y: auto;
   }
   #notice-mid{
     width: 27.5%;
-    height: 200px;
+    height: 220px;
     background: white;
     text-align: center;
     margin-left: 36.25%;
     position: relative;
-    bottom: 190px;
-    overflow: hidden;
+    bottom: 206px;
+    overflow-y: auto;
   }
   #notice-right{
     width: 27.5%;
-    height: 200px;
+    height: 220px;
     background: white;
     text-align: center;
     margin-left: 68.125%;
     position: relative;
-    bottom: 386px;
-    overflow: hidden;
+    bottom: 426px;
+    overflow-y: auto;
   }
   p{
     color: #197ad9;
+    font-size: 17px;
   }
   li{
     text-align: left;
     color:  #197ad9;
-    font-size: 13px;
+    font-size: 14px;
   }
   a{
     text-decoration: none;

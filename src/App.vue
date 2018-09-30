@@ -50,7 +50,7 @@ export default {
               that.gong = response_value['通知公告'];
               that.xiao = response_value['校园活动'];
               //console.log(that.gongGao);
-              that.za = response_value['易杂烩'];
+              that.za = response_value['易新闻'];
             });
           axios.post(host + url['app'])
             .then(function (response) {
