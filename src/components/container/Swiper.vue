@@ -2,7 +2,7 @@
   <div class="swiper-container" id="swiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide" v-for="i in 6">
-        <a :href="image[i]">
+        <a :href="image[i-1]">
           <img :src="img_host + i + '.jpg'">
         </a>
       </div>
